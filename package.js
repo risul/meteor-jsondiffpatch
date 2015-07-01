@@ -1,12 +1,12 @@
 Package.describe({
     name: 'risul:jsondiffpatch',
     summary: 'Meteor package for jsondiffpatch - Diff & patch JavaScript objects.',
-    version: '1.0.3',
+    version: '1.0.4',
     git: 'https://github.com/risul/meteor-jsondiffpatch'
 });
 
 Npm.depends({
-    jsondiffpatch: '0.1.27'
+    jsondiffpatch: '0.1.33'
 });
 
 Package.onUse(function(api) {
